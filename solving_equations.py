@@ -42,5 +42,3 @@ def solve_any_system(numpy_matrix):
 		reverse_counter -=1
 
 	return solution_vector
-
-print(solve_any_system(np.matrix( [[2, 4, -2, -10], [4, -2, 6, 20], [6, -4, 2, 18] ])))
