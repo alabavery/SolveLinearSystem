@@ -1,7 +1,12 @@
 import numpy as np
 
 def solve_any_system(numpy_matrix):
-
+	"""
+	* type numpy_matrix: numpy matrix
+	* rtype: numpy vector
+	"""
+	
+	
 	column_index = 0
 	base_row_index = 0
 	while column_index < numpy_matrix.shape[1] - 2: # will return a tuple (m, n), where m is the number of rows, and n is 
